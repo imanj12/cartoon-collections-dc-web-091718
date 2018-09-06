@@ -1,6 +1,7 @@
 def roll_call_dwarves(dwarves)
   dwarves.each_with_index do |obj, i|
-    
+    spot = i + 1
+    puts "#{spot}. #{obj}"
   end  
 end
 
